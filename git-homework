@@ -7,3 +7,9 @@ push from/to the server.
 where changes are temporarily stored. git add . adds all files that have been changed to the staging
 area. git add -A adds all files that have been changed but also includes deletions across the entire
 repo.
+
+3) git push takes the commited changes from the local git repo and merges them with the gitHub cloud
+repo git pull takes the changes from the gitHub coud repo that the local repo doesnt yet have, adds changes + new files
+and reconciles the differences.
+
+ 
