@@ -2,3 +2,8 @@
 local repository and interact with github. gitHub is the cloud platform used by multiple devs to 
 work on the same project, github interacts with git on local machines to enable devs to pull and
 push from/to the server. 
+
+2) git add <file> only adds the single file to the staging area (sort of like modified buffer) 
+where changes are temporarily stored. git add . adds all files that have been changed to the staging
+area. git add -A adds all files that have been changed but also includes deletions across the entire
+repo.
