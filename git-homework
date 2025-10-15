@@ -12,4 +12,8 @@ repo.
 repo git pull takes the changes from the gitHub coud repo that the local repo doesnt yet have, adds changes + new files
 and reconciles the differences.
 
+4) fetch takes the changes from gitHub cloud and saves them to a modified buffer/staging area but
+does not change any working code on the local machine. Git pull does the same but mergest the 
+staging area with the local repo, immediately modifying local code without chance to preview changes
+in contrast to fetch.
  
