@@ -1,0 +1,4 @@
+1) Git is the local distributed version installed on dev machines used to track changes in the 
+local repository and interact with github. gitHub is the cloud platform used by multiple devs to 
+work on the same project, github interacts with git on local machines to enable devs to pull and
+push from/to the server. 
